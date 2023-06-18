@@ -9,9 +9,7 @@ Name changed to prevent conflicts.
 
 ## Supported models
 ```bash
-W35_37ET: supported and completely tested
-W350SS:   not tested
-P170SM:   not tested
+L14xMU: supported and completely tested
 ```
 * Theoretically supports all Metabox laptops but I have to add correct DMI_BOARD_NAME string and fan number to make module load without force_match parameter. Please open an issue "Add support for *model*" and attach the output file of *dmi_info_dump* script, then I'll add support (look "parameters" section for tests).
 
@@ -44,5 +42,3 @@ make install
 ```bash
 modprobe metaboxfan
 ```
-## Contributing
-Advices and pull requests are welcome. You can contact me at pilia.simone96@gmail.com 
