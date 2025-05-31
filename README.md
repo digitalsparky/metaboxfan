@@ -35,10 +35,6 @@ This module executes write operations on the mainboard's Embedded Controller (EC
 
 ## Install
 ```bash
-make
-make install
-```
-## Load
-```bash
-modprobe metaboxfan
+sudo ./install.sh
+
 ```

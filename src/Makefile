@@ -1,7 +1,8 @@
 name := metaboxfan
 obj-m := $(name).o
 
-KVERSION := $(shell uname -r)
+#KVERSION := $(shell uname -r)
+KVERSION := 6.14.9-arch1-1
 KDIR := /lib/modules/$(KVERSION)/build
 PWD := $(shell pwd)
 
